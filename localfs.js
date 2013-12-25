@@ -675,7 +675,7 @@ module.exports = function setup(fsOptions) {
                     else {
                         var err = new Error("File already exists.");
                         err.code = "EEXIST";
-                        callback(err);
+                       //callback(err);
                     }
                 });
             });
